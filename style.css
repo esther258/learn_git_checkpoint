@@ -1,0 +1,96 @@
+/* étape 4: changer la police de caracrères en roboto.*/
+@import url(https://fonts.googleapis.com/css2?family=roboto:wght@400;700&display=swap);
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: roboto;sans-serif;
+    margin:0;
+    background-color: #fcc58d;
+    color: #5c5a5a;
+    line-height: 1.6;
+    padding-bottom:40px ;
+}
+
+/*style général*/
+.navbar {
+    background: #db5816;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style :none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin:0 15px ;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:white ;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration:underline ;
+}
+
+.heros-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.heros-section h1 {
+    font: size 2rem; ;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1,2rem;
+    color: #555;
+}
+
+ .h2 {
+    margin-bottom: 15px;
+    color: #bd4d16;
+    text-align: center;
+ }
+
+ .projet-container {
+display: flex;
+gap: 15px;
+justify-content: center;
+flex-wrap: wrap;
+ }
+
+ .projet-card {
+    background:white ;
+    padding: 15px; ;
+    border-radius: 8px;
+    width: 260px;
+    text-align: center;
+    border: 1px solid #ddd;
+ }
+
+ .contact-selection a {
+    color:#d85a1a ;
+    font-weight: bold;
+ }
+
+ footer {
+text-align: center;
+padding: 15px;
+margin: top 40px;
+font-size: 0.9rem;
+color: #858383;
+ }
+
+
+
+
